@@ -1,7 +1,5 @@
-use crate::{
-    common_ports::MOST_COMMON_PORTS_100,
-    model::{Port, Subdomain},
-};
+use crate::common_ports::MOST_COMMON_PORTS_100;
+use crate::modules::{Port, Subdomain};
 use futures::StreamExt;
 use std::net::{SocketAddr, ToSocketAddrs};
 use std::time::Duration;
